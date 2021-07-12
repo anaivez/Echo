@@ -62,7 +62,7 @@ public class EchoPermission {
         if (requestPermission == null) {
             requestPermission = new RequestPermission();
         }
-        requestPermissionCode=0xFE;
+        requestPermissionCode = 0xFE;
         ac = activity;
         return requestPermission;
     }

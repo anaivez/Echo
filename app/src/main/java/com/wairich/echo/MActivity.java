@@ -45,7 +45,7 @@ public class MActivity extends AppCompatActivity {
                 EchoPermission
                         .create(this)
                         .requestCode(529)
-                        .request( Manifest.permission.READ_EXTERNAL_STORAGE,
+                        .request(Manifest.permission.READ_EXTERNAL_STORAGE,
                                 Manifest.permission.WRITE_EXTERNAL_STORAGE)
                         .Build(new EchoLinsenter() {
                             @Override
